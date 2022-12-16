@@ -1,0 +1,67 @@
+.hero{
+    background: url('https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-size: cover;
+    font-size: 3rem;
+    padding: 2rem 3.5rem;
+    color: white;
+}
+.search{
+    width: 90%;
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.search input{
+    /* width: auto; */
+    padding: .5rem;
+}
+.search label{
+    font-size: 1.5rem;
+}
+.movie-box{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+.movie-box span{
+    margin-bottom: .8rem;
+}
+.movie-card-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90rem;
+    overflow-x: scroll;
+}
+.movie-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    gap: 1.5rem;
+    border-radius: .4rem;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px){
+    .hero{
+        height: 60vh;
+        /* justify-content: center; */
+        font-size: 2rem;
+        padding: 1.5rem 3rem;
+    }
+    .search{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    
+}

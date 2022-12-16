@@ -1,0 +1,28 @@
+.nav{
+    background-color: black;
+    padding: 2rem 3.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 992px){
+    .nav{
+        justify-content: center;
+    }
+    button{
+        
+        padding: .8rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    
+}
